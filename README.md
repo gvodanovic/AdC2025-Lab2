@@ -48,10 +48,10 @@ Con eso se puede elegir el nuevo CPU para correr la simulación.
 
 ## Como correr la simulación
 
-Ejecutar el script `./run_simulation.sh` definiendo las variables de entorno BENCHMARK con 'daxpy' 'simFisica' o 'bubbleSort' y PROCESSOR con el nombre del procesador que quieran usar.
+Ejecutar el script `./run_simulation.sh` definiendo las variables de entorno BENCHMARK con 'daxpy' o 'ej_branchPred' y PROCESSOR con el nombre del procesador que quieran usar.
 
 Ejemplo:
 
 ```sh
-BENCHMARK=simFisica PROCESSOR=out_of_order ./run_simulation.sh
+BENCHMARK=daxpy PROCESSOR=out_of_order ./run_simulation.sh
 ```
