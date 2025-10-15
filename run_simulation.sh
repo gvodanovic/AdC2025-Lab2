@@ -5,8 +5,8 @@ IMAGE_NAME="gvodanovic/adc_gem5:latest"
 RESULT_PATH="./se_results/"
 
 
-# Definir el benchmark a correr, opciones: daxpy, simFisica, bubbleSort
-BENCHMARK="daxpy"
+# Definir el benchmark a correr, opciones: ej_daxpy, ej_branchPred
+BENCHMARK="ej_daxpy"
 
 # Definir el procesador a utilizar, opciones: in_order, out_of_order, etc.
 PROCESSOR="in_order"
